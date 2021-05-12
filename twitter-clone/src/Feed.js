@@ -1,19 +1,22 @@
 import React from "react";
-
+import "./feed.css";
 function Feed() {
   return (
-    <div>
+    <div className="feed">
       {/*HEADER*/}
-      <h2>Home</h2>
+      <div className="feed__header">
+        <h2>Home</h2>
+      </div>
       {/*TWT BOX*/}
       {/*POST*/}
+      
       {/*POST*/}
       {/*POST*/}
       {/*POST*/}
       {/*POST*/}
       {/*POST*/}
       {/*POST*/}
-        </div>
+    </div>
   );
 }
 
